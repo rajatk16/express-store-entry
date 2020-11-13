@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.expressstoreentry"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:5:5-65
+13-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:6:5-71
+14-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:6:22-68
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:7:5-80
+15-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:8:5-81
+16-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:9:5-66
+17-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:9:22-63
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[com.facebook.flipper:flipper:0.54.0] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:16:5-76
+18-->[com.facebook.flipper:flipper:0.54.0] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:16:22-73
+19
+20    <uses-feature
+20-->[:react-native-camera] C:\Users\ivc17294adm\Desktop\code\expressstoreentry\node_modules\react-native-camera\android\build\intermediates\library_manifest\mlkitDebug\AndroidManifest.xml:11:5-13:36
+21        android:name="android.hardware.camera"
+21-->[:react-native-camera] C:\Users\ivc17294adm\Desktop\code\expressstoreentry\node_modules\react-native-camera\android\build\intermediates\library_manifest\mlkitDebug\AndroidManifest.xml:12:9-47
+22        android:required="false" />
+22-->[:react-native-camera] C:\Users\ivc17294adm\Desktop\code\expressstoreentry\node_modules\react-native-camera\android\build\intermediates\library_manifest\mlkitDebug\AndroidManifest.xml:13:9-33
+23    <uses-feature
+23-->[:react-native-camera] C:\Users\ivc17294adm\Desktop\code\expressstoreentry\node_modules\react-native-camera\android\build\intermediates\library_manifest\mlkitDebug\AndroidManifest.xml:14:5-16:36
+24        android:name="android.hardware.camera.autofocus"
+24-->[:react-native-camera] C:\Users\ivc17294adm\Desktop\code\expressstoreentry\node_modules\react-native-camera\android\build\intermediates\library_manifest\mlkitDebug\AndroidManifest.xml:15:9-57
+25        android:required="false" />
+25-->[:react-native-camera] C:\Users\ivc17294adm\Desktop\code\expressstoreentry\node_modules\react-native-camera\android\build\intermediates\library_manifest\mlkitDebug\AndroidManifest.xml:16:9-33
+26
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:22:5-79
+27-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:22:22-76
+28    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+28-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:24:5-68
+28-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:24:22-65
+29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+29-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
+29-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:22-79
+30
+31    <application
+31-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:11:5-30:19
+32        android:name="com.expressstoreentry.MainApplication"
+32-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:12:7-38
+33        android:allowBackup="false"
+33-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:16:7-34
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.1.0] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\639e914bfc1efa21e36199d3ff2c5eef\core-1.1.0\AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:14:7-41
+37        android:label="@string/app_name"
+37-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:13:7-39
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:15:7-52
+39        android:theme="@style/AppTheme"
+39-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:17:7-38
+40        android:usesCleartextTraffic="true" >
+40-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\debug\AndroidManifest.xml:7:18-53
+41        <activity
+41-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:18:7-28:18
+42            android:name="com.expressstoreentry.MainActivity"
+42-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:19:9-37
+43            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+43-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:21:9-86
+44            android:label="@string/app_name"
+44-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:20:9-41
+45            android:launchMode="singleTask"
+45-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:22:9-40
+46            android:windowSoftInputMode="adjustResize" >
+46-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:23:9-51
+47            <intent-filter>
+47-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:24:9-27:25
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:25:13-65
+48-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:25:21-62
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:26:13-73
+50-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:26:23-70
+51            </intent-filter>
+52        </activity>
+53        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+53-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:29:7-84
+53-->C:\Users\ivc17294adm\Desktop\code\expressstoreentry\android\app\src\main\AndroidManifest.xml:29:17-81
+54
+55        <service
+55-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:29:9-35:19
+56            android:name="com.google.firebase.components.ComponentDiscoveryService"
+56-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:30:13-84
+57            android:exported="false" >
+57-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
+58            <meta-data
+58-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+59                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+59-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
+61        </service>
+62
+63        <receiver
+63-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+64            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+64-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+65            android:exported="true"
+65-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+66            android:permission="com.google.android.c2dm.permission.SEND" >
+66-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+67            <intent-filter>
+67-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+68                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+68-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
+68-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
+69            </intent-filter>
+70        </receiver>
+71        <!--
+72             FirebaseInstanceIdService performs security checks at runtime,
+73             no need for explicit permissions despite exported="true"
+74        -->
+75        <service
+75-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+76            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+76-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+77            android:exported="true" >
+77-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+78            <intent-filter android:priority="-500" >
+78-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+78-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+79                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+79-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+79-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\2da24225fe493fad392019575e102608\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+80            </intent-filter>
+81        </service>
+82
+83        <activity
+83-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\daaa99bdccca5bc4a1391908e632a37c\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+84            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+84-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\daaa99bdccca5bc4a1391908e632a37c\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+85            android:exported="false"
+85-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\daaa99bdccca5bc4a1391908e632a37c\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+86-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\daaa99bdccca5bc4a1391908e632a37c\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+87
+88        <provider
+88-->[com.google.firebase:firebase-common:16.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\75a15ac8641709473c56406f057856c0\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+89            android:name="com.google.firebase.provider.FirebaseInitProvider"
+89-->[com.google.firebase:firebase-common:16.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\75a15ac8641709473c56406f057856c0\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+90            android:authorities="com.expressstoreentry.firebaseinitprovider"
+90-->[com.google.firebase:firebase-common:16.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\75a15ac8641709473c56406f057856c0\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+91            android:exported="false"
+91-->[com.google.firebase:firebase-common:16.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\75a15ac8641709473c56406f057856c0\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+92            android:initOrder="100" />
+92-->[com.google.firebase:firebase-common:16.0.3] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\75a15ac8641709473c56406f057856c0\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+93
+94        <meta-data
+94-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\993a988ea48a13a55436b9f176ea5038\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+95            android:name="com.google.android.gms.version"
+95-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\993a988ea48a13a55436b9f176ea5038\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+96            android:value="@integer/google_play_services_version" />
+96-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\ivc17294adm\.gradle\caches\transforms-2\files-2.1\993a988ea48a13a55436b9f176ea5038\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+97    </application>
+98
+99</manifest>
